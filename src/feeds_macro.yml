@@ -1,0 +1,24 @@
+# feeds_macro.yml
+- id: bloomberg_economia
+  url: "https://www.bloomberg.com/feeds/sitemap_news.xml"
+  freq: 60
+
+- id: g1_economia
+  url: "https://g1.globo.com/rss/g1/economia/"
+  freq: 60
+
+- id: valor_economia
+  url: "https://valor.globo.com/rss/valor"
+  freq: 60
+
+- id: tradingeconomics_eua
+  url: "https://feeds.feedburner.com/TradingEconomics"
+  freq: 30
+
+- id: ft_economia
+  url: "https://www.ft.com/?edition=international&format=rss"
+  freq: 60
+
+- id: bcbs_economia
+  url: "http://feeds.bbci.co.uk/news/business/rss.xml"
+  freq: 60
