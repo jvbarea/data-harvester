@@ -31,12 +31,12 @@ jobs:
 
       - name: Coletor Corporate (RSS)
         if: github.event_name == 'schedule' && contains(github.event.schedule, '*/5')
-        run: python src/main.py --which corporate --once
+        run: python main.py --which corporate --once
 
       - name: Coletor Macro (RSS)
         if: github.event_name == 'schedule' && contains(github.event.schedule, '*/15')
-        run: python src/main.py --which macro --once
+        run: python main.py --which macro --once
 
       - name: Coletor Completo Manual
         if: github.event_name == 'workflow_dispatch'
-        run: python src/main.py --which all --once
+        run: python main.py --which all --once
