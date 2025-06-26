@@ -1,0 +1,35 @@
+# ingestion/feeds_corporate.yml
+# - id: cvm_global
+#   url: "https://www.gov.br/cvm/pt-br/assuntos/noticias/RSS"
+#   parser: "cvm"
+#   freq: 120
+
+- id: gnews_bbas3
+  url: "https://news.google.com/rss/search?q=%22Banco%20do%20Brasil%22%20OR%20BBAS3&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  parser: "generic"
+  freq: 60
+
+- id: gnews_embr3
+  url: "https://news.google.com/rss/search?q=Embraer%20OR%20EMBR3&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  parser: "generic"
+  freq: 60
+
+# - id: valor_ultimas
+#   url: "https://valor.globo.com/ultimas-noticias/rss2.xml"
+#   freq: 300
+
+- id: valor_ultimas
+  url: "https://valor.globo.com/rss/valor"
+  freq: 300
+
+- id: infomoney_ultimas
+  url: "https://www.infomoney.com.br/ultimas-noticias/feed/"
+  freq: 120
+
+- id: exame_ultimas
+  url: "https://exame.com/feed/"
+  freq: 180
+
+- id: investing_mercado
+  url: "https://br.investing.com/rss/news_25.rss"
+  freq: 60

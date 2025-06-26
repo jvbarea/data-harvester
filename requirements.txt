@@ -1,0 +1,9 @@
+feedparser
+requests
+beautifulsoup4
+python-dateutil
+python-dotenv
+supabase
+PyYAML
+lxml
+html5lib
