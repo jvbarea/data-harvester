@@ -10,6 +10,9 @@
 - **Armazenamento Imutável**  
   As notícias brutas são guardadas em `raw_news` e `raw_news_macro`, preservando o JSON/XML original para auditoria e reprocessamento.
 
+  - **Captação de Valores de Mercado**  
+  Os valores das ações de interesse são capturados através do yahoo finance, uma biblioteca do python, com uma base imensa de dados.
+
 - **Pipeline de Limpeza**  
   Separadamente, roda jobs de limpeza que extraem título, corpo e metadados em `cleaned_news` e `cleaned_news_macro`, prontos para NLP e machine learning.
 
